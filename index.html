@@ -5,126 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pauline Ramadier — Art & Design</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;1,300&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
-    <!-- NAV -->
-    <nav>
-      <div class="logo">PR</div>
-      <ul class="nav-links">
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#univers">Univers</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-left">
+      <!-- INTRO -->
+      <div class="card intro">
+        <span class="tag">Art · Design · Créativité</span>
+
+        <h1>Pauline<br><em>Ramadier</em></h1>
+
         <div class="avatar-ring">
           <div class="avatar">PR</div>
         </div>
-        <span class="tag">Art · Design · Créativité</span>
-      </div>
 
-      <div class="hero-content">
-        <h1>Pauline<br><em>Ramadier</em></h1>
-
-        <p class="subtitle">
+        <p>
           Passionnée d'art, de design et de création visuelle, je construis un univers où l'esthétique rencontre l'intention.
           Chaque projet est une nouvelle façon de voir le monde.
         </p>
 
-        <div class="cta-group">
-          <a href="mailto:pauline.ramadier@ieseg.fr" class="btn-primary">Me contacter</a>
-          <a href="#apropos" class="btn-ghost">En savoir plus ↓</a>
+        <a href="mailto:pauline.ramadier@ieseg.fr" class="btn-primary">
+          Me contacter
+        </a>
+      </div>
+
+      <!-- A PROPOS -->
+      <div class="card">
+        <span class="section-tag">À propos</span>
+        <h2>Qui suis-je ?</h2>
+
+        <p>
+          Étudiante à l'IESEG, je me passionne pour l'art sous toutes ses formes — illustration, design graphique,
+          direction artistique. Mon objectif : créer des expériences visuelles qui touchent, inspirent et marquent.
+        </p>
+      </div>
+
+      <!-- UNIVERS -->
+      <div class="card">
+        <span class="section-tag">Univers</span>
+        <h2>Mes domaines</h2>
+
+        <div class="mini-card">
+          <h3>01 — Illustration</h3>
+          <p>Exprimer des idées et émotions à travers le dessin et la création visuelle.</p>
+        </div>
+
+        <div class="mini-card">
+          <h3>02 — Design Graphique</h3>
+          <p>Créer des identités visuelles fortes avec cohérence et impact.</p>
+        </div>
+
+        <div class="mini-card">
+          <h3>03 — Direction Artistique</h3>
+          <p>Construire et guider un univers visuel avec vision et précision.</p>
         </div>
       </div>
-    </section>
 
-    <!-- ABOUT -->
-    <section id="apropos" class="section">
-      <div class="container split">
-        <div class="split-left">
-          <span class="section-tag">À propos</span>
-          <h2>Qui suis-je ?</h2>
-        </div>
+      <!-- CONTACT -->
+      <div class="card">
+        <h2>Créons ensemble</h2>
 
-        <div class="split-right">
-          <p class="about-text">
-            Étudiante à l'IESEG, je me passionne pour l'art sous toutes ses formes — illustration, design graphique,
-            direction artistique. Mon objectif : créer des expériences visuelles qui touchent, inspirent et marquent.
-          </p>
-        </div>
+        <p>
+          Ouverte aux collaborations créatives, projets artistiques et opportunités.
+        </p>
+
+        <a href="mailto:pauline.ramadier@ieseg.fr" class="btn-primary">
+          pauline.ramadier@ieseg.fr →
+        </a>
       </div>
-    </section>
 
-    <!-- UNIVERS -->
-    <section id="univers" class="section section-alt">
-      <div class="container">
+      <!-- SOCIAL -->
+      <div class="card">
+        <h2>Me suivre</h2>
 
-        <div class="section-header centered">
-          <span class="section-tag">Univers</span>
-          <h2>Mes domaines</h2>
-        </div>
-
-        <div class="grid-3">
-
-          <div class="card">
-            <span class="card-number">01</span>
-            <h3>Illustration</h3>
-            <p>Exprimer des idées et émotions à travers le dessin, du concept à la composition finale.</p>
-          </div>
-
-          <div class="card">
-            <span class="card-number">02</span>
-            <h3>Design Graphique</h3>
-            <p>Créer des identités visuelles fortes et cohérentes avec un impact esthétique et stratégique.</p>
-          </div>
-
-          <div class="card">
-            <span class="card-number">03</span>
-            <h3>Direction Artistique</h3>
-            <p>Définir et guider l’univers visuel d’un projet avec cohérence, vision et précision.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section-dark">
-      <div class="container split">
-
-        <div class="split-left">
-          <h2>Créons<br><em>ensemble.</em></h2>
-        </div>
-
-        <div class="split-right">
-          <p>Ouverte aux collaborations créatives, projets artistiques et opportunités.</p>
-
-          <a href="mailto:pauline.ramadier@ieseg.fr" class="btn-primary">
-            pauline.ramadier@ieseg.fr →
+        <div class="social-links">
+          <a href="https://www.instagram.com/pauline_nsm/" target="_blank">
+            Instagram
           </a>
-
-          <div class="social-links">
-            <a href="https://www.instagram.com/pauline_nsm/" target="_blank">Instagram</a>
-          </div>
         </div>
-
       </div>
-    </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <p>© 2024 Pauline Ramadier · Art & Design</p>
-    </footer>
+    </div>
 
   </body>
 </html>
